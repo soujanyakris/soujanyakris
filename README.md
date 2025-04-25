@@ -52,9 +52,4 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 
 ---
 
-## 📫 Let’s Connect
-
-📧 Email: [soujanya.kirh@gmail.com]  
-🔗 [LinkedIn](www.linkedin.com/in/soujanya-krishnamurthy-b2124219)  
-📁 Datacamp: (https://www.datacamp.com/portfolio/SoujanyaK)
-
+## Explore my projects at: https://github.com/soujanyakris?tab=repositories
