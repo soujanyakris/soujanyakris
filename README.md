@@ -1,7 +1,6 @@
 # 👋 Hello, I'm Soujanya!
 
 🎯 **Data/Business Intelligance Analyst** | ⚡ Renewable Energy & EdTech | 📊 Data-Driven Decision Maker  
-🌍 Based in Liverpool 
 
 ## About Me
 
