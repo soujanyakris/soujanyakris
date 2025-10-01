@@ -35,7 +35,7 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 
 ## 🧾 Work Snapshot
 
-- 🔌 **Analyst – Renewable Energy Forecasting** (2025–Present) @ *Rapidminds Ltd*  
+- 🔌 **Analyst** (2025) @ *Rapidminds Ltd*  
 - 🔋 **Data Analyst** (2023–2025) @ *Morrison Energy Services*  
 - 🌍 **Student Admissions Officer** (2019–2021) @ *IDP Education*  
 - 📚 **Senior Trainer** (2013–2019) @ *Manya Education*  
