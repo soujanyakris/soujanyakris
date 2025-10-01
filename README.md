@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Soujanya!
 
-🎯 **Data/Business Intelligance Analyst** | ⚡ Renewable Energy & EdTech | 📊 Data-Driven Decision Maker  
+🎯 **Data/Business Intelligance Analyst** | ⚡Energy & EdTech | 📊 Data-Driven Decision Maker  
 
 ## About Me
 
@@ -8,7 +8,7 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 
 - 🔍 **Domain knowledge**: Energy Services, Renewable Energy, and Education
 - 🛠️ **Tools of the trade**: Power BI, SQL, Python, Salesforce CRM, Excel
-- 🔐 Advocate for **Data Governance**, **GDPR compliance**, and **data integrity**
+- 🔐 Advocate for **Data Governance**, **GDPR compliance**, and **Sustainability**
 - 📈 Led revenue forecasting, churn analysis, and performance optimization initiatives
 
 ---
