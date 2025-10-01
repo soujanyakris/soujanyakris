@@ -18,6 +18,7 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 - **Data Analytics & Visualization**
 - **Machine Learning & Sentiment Analysis**
 - **Exploratory Data Analysis (EDA)**
+- **ETL Pipelines**
 - **Process Automation & Optimization**
 - **Data Governance & GDPR Compliance**
 - **Stakeholder Collaboration & Team Building**
