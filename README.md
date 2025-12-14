@@ -47,9 +47,11 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 
 ## 🎓 Education
 
-**Master’s in Business Analytics & Big Data**  
+**Master of Science in Business Analytics & Big Data**  
 [University of Liverpool] — [2022]
+
+**Bachelor in Business Management**  
+[Bangalore University] — [2002]
 
 ---
 
-## Explore my projects at: https://github.com/soujanyakris?tab=repositories
