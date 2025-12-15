@@ -9,7 +9,7 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 - 🔍 **Domain knowledge**: Education, Energy Services, Renewable Energy and Retail 
 - 🛠️ **Tools of the trade**: Power BI, SQL, Python, Salesforce CRM, Excel, Google Analytics, MixedPanel
 - 🔐 Advocate for **Data Governance**, **GDPR compliance**, and **Sustainability**
-- 📈 Led revenue forecasting, churn analysis, and performance optimization initiatives
+- 📈 Led revenue forecasting, churn analysis, product analytics and performance optimization initiatives
 
 ---
 
@@ -22,6 +22,7 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 - **Process Automation & Optimization**
 - **Data Governance & GDPR Compliance**
 - **Stakeholder Collaboration & Team Building**
+- **Product Analytics**
 
 ---
 
