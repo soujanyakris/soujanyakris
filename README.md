@@ -20,17 +20,19 @@ I’m a results-oriented **Analyst** with over **5 years of experience** across 
 - **Exploratory Data Analysis (EDA)**
 - **ETL Pipelines**
 - **Process Automation & Optimization**
-- **Data Governance & GDPR Compliance**
-- **Stakeholder Collaboration & Team Building**
 - **Product Analytics**
+- **Data Governance & GDPR Compliance**
+- **Stakeholder Collaboration & Team Building** 
 
 ---
 
-## ⚙️ Technical Skills
+## ⚙️ Skills
 
-`SQL Server` | `Power BI` | `Python (Pandas, Numpy, NLTK)` | `DAX` | `Power Query`  
-`Salesforce CRM` | `SAP FI/CRM` | `Oracle 11i` | `Excel` | `Tableau`  
-`Statistical Analysis` | `Business Intelligence` | `Data Modeling` | `APIs` | `Parquet`
+- Technical expertise: Power BI, Tableau, Microsoft Excel, Power Query, SQL, Python (NumPy/Pandas/Matplotlib/Seaborn)
+- System Tools: Salesforce CRM, SAP CRM, Oracle 170, JIRA, Mixpanel, Google Analytics 4
+- Statistical Techniques: Hypothesis testing, Time series analysis, Regression analysis, Sentiment analysis
+- Process Documentation: Process flow charts, SOPs, Requirements gathering, UAT coordination
+- AI and Cloud platforms: Google Big Query, Google Colab, Power BI Source
 
 ---
 
