@@ -56,5 +56,13 @@ I’m a results-oriented **Analyst** with over experience across the **Energy, E
 **Bachelor in Business Management**  
 [Bangalore University] — [2002]
 
+## 🎓 Certifications
+
+**Product Analytics Micro-certification**  
+[Mixpanel] — [2025]
+
+**Data Analyst with Power BI**  
+[Datacamp] — [2025]
+
 ---
 
