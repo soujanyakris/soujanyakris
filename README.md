@@ -38,7 +38,7 @@ I’m a results-oriented **Analyst** with over experience across the **Energy, E
 
 ## 🧾 Work Snapshot
 
-- 🔌 **Analyst** (2025) @ *Rapidminds Ltd*  
+- 🔌 **Data Analyst** (2025-2026) @ *Rapidminds UK*  
 - 🔋 **Data Analyst** (2023–2025) @ *Morrison Energy Services*  
 - 🌍 **Student Admissions Officer** (2019–2021) @ *IDP Education*  
 - 📚 **Senior Trainer** (2013–2019) @ *Manya Education*  
@@ -63,6 +63,9 @@ I’m a results-oriented **Analyst** with over experience across the **Energy, E
 
 **Data Analyst with Power BI**  
 [Datacamp] — [2025]
+
+**Google Analytics 4**  
+[Google Skillsshop] — [2026]
 
 ---
 
