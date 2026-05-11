@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Soujanya!
+# 👋 Hello, I'm Soujanya
 
 🎯 **Data/Business Intelligance Analyst** | ⚡Energy & EdTech | 📊 Data-Driven Decision Maker  
 
