@@ -31,7 +31,7 @@ I’m a results-oriented **Analyst** with over experience across the **Energy, E
 
 - Technical expertise: Power BI, Tableau, Microsoft Excel, Power Query, SQL, Python (NumPy/Pandas/Matplotlib/Seaborn)
 - System Tools: Salesforce CRM, SAP CRM, Oracle 170, JIRA, Mixpanel, Google Analytics 4
-- Statistical Techniques: Hypothesis testing, Time series analysis, Regression analysis, Sentiment analysis
+- Statistical Techniques: Hypothesis testing, Time series analysis, Regression analysis, Sentiment analysis, GIS Modelling
 - Process Documentation: Process flow charts, SOPs, Requirements gathering, UAT coordination
 - AI and Cloud platforms: Google Big Query, Google Colab, Power BI Source
 
