@@ -16,6 +16,7 @@ I’m a results-oriented **Analyst** with over experience across the **Energy, E
 ## Core Competencies
 
 - **Data Analytics & Visualization**
+- **GIS Modelling**
 - **Machine Learning & Sentiment Analysis**
 - **Exploratory Data Analysis (EDA)**
 - **ETL Pipelines**
