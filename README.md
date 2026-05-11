@@ -7,7 +7,7 @@
 I’m a results-oriented **Analyst** with over experience across the **Energy, Education, and Retail sectors**. My work blends **data analytics, predictive modeling, and automation** to optimize operations, enhance decision-making, and drive growth.
 
 - 🔍 **Domain knowledge**: Education, Energy Services, Renewable Energy and Retail 
-- 🛠️ **Tools of the trade**: Power BI, SQL, Python, Salesforce CRM, Excel, Google Analytics, MixedPanel
+- 🛠️ **Tools of the trade**: Power BI, SQL, Python, Salesforce CRM, Excel, QGIS and Google Cloud
 - 🔐 Advocate for **Data Governance**, **GDPR compliance**, and **Sustainability**
 - 📈 Led revenue forecasting, churn analysis, product analytics and performance optimization initiatives
 
