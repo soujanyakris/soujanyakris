@@ -1,6 +1,59 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Soujanya Kris</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Soujanya Kris</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="youtube.html">YouTube</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="page-header">
+  <h1>Portfolio</h1>
+  <p>A curated collection of projects I've built — from side experiments to production systems.</p>
+</div>
+<section class="section">
+  <div class="section-title"><h2>Projects</h2></div>
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-thumb-placeholder"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.35"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+      <div class="card-body"><p class="card-meta">Web App · 2024</p><h3>Project Alpha</h3><p>A full-stack web application built with React and Node.js. Handles real-time data with WebSockets.</p><div class="card-tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">WebSocket</span><span class="tag">PostgreSQL</span></div></div>
+      <div class="card-footer"><a href="https://github.com/soujanyakris" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a><a href="#" class="btn btn-primary">Live Demo ↗</a></div>
+    </div>
+    <div class="card">
+      <div class="card-thumb-placeholder"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.35"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+      <div class="card-body"><p class="card-meta">ML / Data · 2023</p><h3>Sentiment Analyser</h3><p>Fine-tuned a BERT model for sentiment classification on product reviews. Deployed as a REST API.</p><div class="card-tags"><span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">FastAPI</span><span class="tag">HuggingFace</span></div></div>
+      <div class="card-footer"><a href="https://github.com/soujanyakris" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a><a href="#" class="btn btn-primary">Live Demo ↗</a></div>
+    </div>
+    <div class="card">
+      <div class="card-thumb-placeholder"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.35"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+      <div class="card-body"><p class="card-meta">CLI Tool · 2023</p><h3>Dev Timer CLI</h3><p>A developer productivity CLI tool for tracking time spent on tasks and generating daily reports.</p><div class="card-tags"><span class="tag">Go</span><span class="tag">CLI</span><span class="tag">SQLite</span></div></div>
+      <div class="card-footer"><a href="https://github.com/soujanyakris" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a></div>
+    </div>
+    <div class="card">
+      <div class="card-thumb-placeholder"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.35"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+      <div class="card-body"><p class="card-meta">Open Source · 2022</p><h3>Email Template Engine</h3><p>A lightweight, dependency-free HTML email template engine with variable interpolation and preview mode.</p><div class="card-tags"><span class="tag">JavaScript</span><span class="tag">Node.js</span><span class="tag">npm</span></div></div>
+      <div class="card-footer"><a href="https://github.com/soujanyakris" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a><a href="#" class="btn btn-primary">npm ↗</a></div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>Crafted with care by <strong>Soujanya Kris</strong> &nbsp;·&nbsp; <a href="mailto:your@email.com">your@email.com</a> &nbsp;·&nbsp; <a href="https://github.com/soujanyakris" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></p>
+</footer>
+<script>document.getElementById('navToggle').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});</script>
+</body>
+</html>
