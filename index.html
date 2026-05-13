@@ -1,6 +1,175 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soujanya Kris — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <span class="nav-logo">Soujanya Kris</span>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="youtube.html">YouTube</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="avatar-wrap">
+    <div class="avatar-ring" id="avatarRing" title="Click to upload photo" onclick="document.getElementById('photo-input').click()">
+      <img id="avatar-img" src="" alt="Profile photo" style="display:none;" />
+      <div class="avatar-placeholder" id="avatar-placeholder">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+        <span>Upload photo</span>
+      </div>
+      <div class="avatar-overlay">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+          <circle cx="12" cy="13" r="4"/>
+        </svg>
+        Change photo
+      </div>
+    </div>
+    <input type="file" id="photo-input" accept="image/*" />
+  </div>
+  <div class="hero-text">
+    <h1>Soujanya Kris</h1>
+    <p class="hero-subtitle">Software Engineer &amp; Creator</p>
+    <p class="hero-bio">Passionate about building elegant solutions, sharing knowledge through writing and video, and contributing to meaningful open-source projects. Welcome to my corner of the internet.</p>
+    <div class="contact-row">
+      <a href="mailto:your@email.com" class="contact-pill">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+        your@email.com
+      </a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-pill">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/soujanyakris" target="_blank" rel="noopener" class="contact-pill">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section">
+  <div class="section-title"><h2>Education</h2></div>
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="timeline-year">2020 – 2024</span>
+      <div class="timeline-body">
+        <h3>B.Tech in Computer Science</h3>
+        <p class="org">Your University Name</p>
+        <p>Relevant coursework: Data Structures, Algorithms, Machine Learning, Software Engineering. CGPA: 9.0/10.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2018 – 2020</span>
+      <div class="timeline-body">
+        <h3>Higher Secondary (Science)</h3>
+        <p class="org">Your School Name</p>
+        <p>Physics, Chemistry, Mathematics &amp; Computer Science. Scored 95%.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section">
+  <div class="section-title"><h2>Experience</h2></div>
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="timeline-year">2024 – Present</span>
+      <div class="timeline-body">
+        <h3>Software Engineer</h3>
+        <p class="org">Company Name</p>
+        <p>Building scalable backend services and contributing to frontend features. Collaborating across cross-functional teams to ship products users love.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">Summer 2023</span>
+      <div class="timeline-body">
+        <h3>Software Engineering Intern</h3>
+        <p class="org">Internship Company</p>
+        <p>Developed REST APIs, wrote unit tests, and improved CI/CD pipelines. Reduced build time by 30%.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2022 – 2023</span>
+      <div class="timeline-body">
+        <h3>Open Source Contributor</h3>
+        <p class="org">Various Projects</p>
+        <p>Contributed bug fixes and features to popular open-source libraries. Merged 15+ pull requests.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section" style="padding-bottom:5rem;">
+  <div class="section-title"><h2>Explore</h2></div>
+  <div class="cards-grid">
+    <a href="portfolio.html" style="text-decoration:none;">
+      <div class="card" style="padding:2rem;display:flex;flex-direction:column;gap:0.75rem;">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--link)" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        <h3 style="color:var(--text)">Portfolio</h3>
+        <p style="font-size:0.9rem;">Browse my projects, case studies, and technical work.</p>
+      </div>
+    </a>
+    <a href="blog.html" style="text-decoration:none;">
+      <div class="card" style="padding:2rem;display:flex;flex-direction:column;gap:0.75rem;">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--link)" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        <h3 style="color:var(--text)">Blog</h3>
+        <p style="font-size:0.9rem;">Thoughts on engineering, learning, and building things.</p>
+      </div>
+    </a>
+    <a href="youtube.html" style="text-decoration:none;">
+      <div class="card" style="padding:2rem;display:flex;flex-direction:column;gap:0.75rem;">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--link)" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+        <h3 style="color:var(--text)">YouTube</h3>
+        <p style="font-size:0.9rem;">Video tutorials, walkthroughs, and tech talks.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>Crafted with care by <strong>Soujanya Kris</strong> &nbsp;·&nbsp; <a href="mailto:your@email.com">your@email.com</a> &nbsp;·&nbsp; <a href="https://github.com/soujanyakris" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></p>
+</footer>
+<div id="toast"></div>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () => { document.getElementById('navLinks').classList.toggle('open'); });
+  const photoInput = document.getElementById('photo-input');
+  const avatarImg = document.getElementById('avatar-img');
+  const avatarPlaceholder = document.getElementById('avatar-placeholder');
+  photoInput.addEventListener('change', (e) => {
+    const file = e.target.files[0]; if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => { avatarImg.src = ev.target.result; avatarImg.style.display = 'block'; avatarPlaceholder.style.display = 'none'; localStorage.setItem('portfolioPhoto', ev.target.result); showToast('Photo updated!'); };
+    reader.readAsDataURL(file);
+  });
+  const saved = localStorage.getItem('portfolioPhoto');
+  if (saved) { avatarImg.src = saved; avatarImg.style.display = 'block'; avatarPlaceholder.style.display = 'none'; }
+  function showToast(msg) { const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 2800); }
+</script>
+</body>
+</html>
