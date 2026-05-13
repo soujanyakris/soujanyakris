@@ -1,6 +1,85 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube — Soujanya Kris</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .yt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+    .yt-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; transition: box-shadow 0.25s, transform 0.25s; }
+    .yt-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-3px); }
+    .yt-thumb-placeholder { width: 100%; aspect-ratio: 16/9; background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); display: flex; align-items: center; justify-content: center; cursor: pointer; position: relative; }
+    .yt-play-btn { width: 56px; height: 56px; border-radius: 50%; background: rgba(255,0,0,0.85); display: flex; align-items: center; justify-content: center; transition: transform 0.2s, background 0.2s; }
+    .yt-thumb-placeholder:hover .yt-play-btn { transform: scale(1.1); background: #ff0000; }
+    .yt-duration { position: absolute; bottom: 8px; right: 10px; background: rgba(0,0,0,0.8); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
+    .yt-card-body { padding: 1.1rem 1.25rem 1.25rem; }
+    .yt-card-meta { font-size: 0.78rem; color: var(--accent); font-weight: 600; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.5rem; }
+    .yt-card-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--accent-light); }
+    .yt-card h3 { color: var(--text); font-size: 1rem; margin-bottom: 0.4rem; line-height: 1.45; }
+    .yt-card p { font-size: 0.875rem; margin-bottom: 0.75rem; }
+    .views { font-size: 0.78rem; color: var(--text-muted); }
+    .channel-banner { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding: 3rem 2rem; text-align: center; color: #fff; }
+    .channel-banner h2 { color: #fff; margin-bottom: 0.5rem; }
+    .channel-banner p { color: rgba(255,255,255,0.7); max-width: 500px; margin: 0 auto 1.5rem; }
+    .yt-subscribe-btn { display: inline-flex; align-items: center; gap: 8px; background: #ff0000; color: #fff; padding: 10px 22px; border-radius: 8px; font-weight: 700; font-size: 0.9rem; transition: background 0.2s; text-decoration: none; }
+    .yt-subscribe-btn:hover { background: #cc0000; color: #fff; }
+    .stats-row { display: flex; gap: 2rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat-num { font-family: var(--font-heading); font-size: 1.8rem; color: #fff; font-weight: 700; }
+    .stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.6); margin-top: 2px; }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Soujanya Kris</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="youtube.html" class="active">YouTube</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="channel-banner">
+  <h2>YouTube Channel</h2>
+  <p>I make videos on software engineering, coding tutorials, career advice, and day-in-the-life content.</p>
+  <a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener" class="yt-subscribe-btn">Subscribe on YouTube</a>
+  <div class="stats-row">
+    <div class="stat"><div class="stat-num">1.2K</div><div class="stat-label">Subscribers</div></div>
+    <div class="stat"><div class="stat-num">24</div><div class="stat-label">Videos</div></div>
+    <div class="stat"><div class="stat-num">45K</div><div class="stat-label">Total Views</div></div>
+  </div>
+</div>
+<section class="section">
+  <div class="section-title"><h2>Latest Videos</h2></div>
+  <div class="yt-grid">
+    <div class="yt-card"><div class="yt-thumb-placeholder" onclick="embedVideo(this,'VIDEO_ID_1')"><div class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><polygon points="5 3 19 12 5 21 5 3"/></svg></div><span class="yt-duration">12:34</span></div><div class="yt-card-body"><div class="yt-card-meta"><span>May 2024</span><span class="dot"></span><span>Tutorial</span></div><h3>Build a Full Stack App with React + FastAPI in 1 Hour</h3><p>Step-by-step tutorial building a full stack web app from scratch, deployed on the cloud.</p><div class="card-tags"><span class="tag">React</span><span class="tag">FastAPI</span><span class="tag">Tutorial</span></div></div><div style="padding:0 1.25rem 1.25rem;display:flex;justify-content:space-between;align-items:center;"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:0.82rem;padding:6px 14px;">Watch →</a><span class="views">3.2K views</span></div></div>
+    <div class="yt-card"><div class="yt-thumb-placeholder" onclick="embedVideo(this,'VIDEO_ID_2')"><div class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><polygon points="5 3 19 12 5 21 5 3"/></svg></div><span class="yt-duration">8:15</span></div><div class="yt-card-body"><div class="yt-card-meta"><span>Apr 2024</span><span class="dot"></span><span>Career</span></div><h3>My Honest Experience at a Tech Company — 6 Months In</h3><p>What no one tells you about starting a software engineering job — the real day-to-day.</p><div class="card-tags"><span class="tag">Career</span><span class="tag">Vlog</span></div></div><div style="padding:0 1.25rem 1.25rem;display:flex;justify-content:space-between;align-items:center;"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:0.82rem;padding:6px 14px;">Watch →</a><span class="views">5.8K views</span></div></div>
+    <div class="yt-card"><div class="yt-thumb-placeholder" onclick="embedVideo(this,'VIDEO_ID_3')"><div class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><polygon points="5 3 19 12 5 21 5 3"/></svg></div><span class="yt-duration">20:07</span></div><div class="yt-card-body"><div class="yt-card-meta"><span>Mar 2024</span><span class="dot"></span><span>DSA</span></div><h3>Binary Trees Explained — From Zero to Interview Ready</h3><p>A visual walkthrough of binary trees, common patterns, and how to ace tree problems in interviews.</p><div class="card-tags"><span class="tag">DSA</span><span class="tag">LeetCode</span><span class="tag">Interview</span></div></div><div style="padding:0 1.25rem 1.25rem;display:flex;justify-content:space-between;align-items:center;"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:0.82rem;padding:6px 14px;">Watch →</a><span class="views">12.1K views</span></div></div>
+    <div class="yt-card"><div class="yt-thumb-placeholder" onclick="embedVideo(this,'VIDEO_ID_4')"><div class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><polygon points="5 3 19 12 5 21 5 3"/></svg></div><span class="yt-duration">15:42</span></div><div class="yt-card-body"><div class="yt-card-meta"><span>Feb 2024</span><span class="dot"></span><span>Tools</span></div><h3>My VS Code Setup for Python Development — 2024</h3><p>Extensions, keybindings, themes, and settings that make me productive as a Python developer.</p><div class="card-tags"><span class="tag">VS Code</span><span class="tag">Python</span><span class="tag">Productivity</span></div></div><div style="padding:0 1.25rem 1.25rem;display:flex;justify-content:space-between;align-items:center;"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:0.82rem;padding:6px 14px;">Watch →</a><span class="views">7.4K views</span></div></div>
+    <div class="yt-card"><div class="yt-thumb-placeholder" onclick="embedVideo(this,'VIDEO_ID_5')"><div class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><polygon points="5 3 19 12 5 21 5 3"/></svg></div><span class="yt-duration">6:50</span></div><div class="yt-card-body"><div class="yt-card-meta"><span>Jan 2024</span><span class="dot"></span><span>Git</span></div><h3>Git Branching Strategy That Actually Works for Small Teams</h3><p>A simple, practical branching model that keeps the main branch clean and deployments smooth.</p><div class="card-tags"><span class="tag">Git</span><span class="tag">Workflow</span></div></div><div style="padding:0 1.25rem 1.25rem;display:flex;justify-content:space-between;align-items:center;"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:0.82rem;padding:6px 14px;">Watch →</a><span class="views">4.9K views</span></div></div>
+    <div class="yt-card"><div class="yt-thumb-placeholder" onclick="embedVideo(this,'VIDEO_ID_6')"><div class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><polygon points="5 3 19 12 5 21 5 3"/></svg></div><span class="yt-duration">18:23</span></div><div class="yt-card-body"><div class="yt-card-meta"><span>Dec 2023</span><span class="dot"></span><span>System Design</span></div><h3>System Design Basics — How to Think Like a Senior Engineer</h3><p>Breaking down system design interviews — the framework I use to structure any problem confidently.</p><div class="card-tags"><span class="tag">System Design</span><span class="tag">Interview</span></div></div><div style="padding:0 1.25rem 1.25rem;display:flex;justify-content:space-between;align-items:center;"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:0.82rem;padding:6px 14px;">Watch →</a><span class="views">9.3K views</span></div></div>
+  </div>
+</section>
+<footer>
+  <p>Crafted with care by <strong>Soujanya Kris</strong> &nbsp;·&nbsp; <a href="mailto:your@email.com">your@email.com</a> &nbsp;·&nbsp; <a href="https://github.com/soujanyakris" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></p>
+</footer>
+<script>
+  document.getElementById('navToggle').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});
+  function embedVideo(placeholder, videoId) {
+    if (videoId.startsWith('VIDEO_ID')) return;
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    iframe.allow = 'autoplay; encrypted-media'; iframe.allowFullscreen = true;
+    iframe.style.cssText = 'width:100%;height:100%;border:none;';
+    placeholder.replaceWith(iframe);
+  }
+</script>
+</body>
+</html>
